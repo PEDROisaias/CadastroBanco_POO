@@ -1,4 +1,4 @@
-package modelos;
+package objetos;
 
 public abstract class Conta {
     private String agencia;

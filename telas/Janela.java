@@ -10,7 +10,8 @@ import javax.swing.JRadioButton;
 import javax.swing.JSeparator;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
-import controler.Cadastro;
+
+import funcoes.Cadastro;
 
 public class Janela extends JFrame {
 

@@ -1,10 +1,11 @@
-package controler;
+package funcoes;
 
 import javax.swing.JOptionPane;
-import modelos.Cliente;
-import modelos.Conta;
-import modelos.ContaCorrente;
-import modelos.ContaPoupanca;
+
+import objetos.Cliente;
+import objetos.Conta;
+import objetos.ContaCorrente;
+import objetos.ContaPoupanca;
 import telas.Janela;
 
 public class Cadastro {
