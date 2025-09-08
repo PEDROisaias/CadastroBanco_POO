@@ -1,7 +1,6 @@
 package funcoes;
 
 import javax.swing.JOptionPane;
-
 import objetos.Cliente;
 import objetos.Conta;
 import objetos.ContaCorrente;
@@ -37,10 +36,10 @@ public class Cadastro {
         String numeroConta = janela.getJtfConta().getText();
 
         if (janela.getJrbCorrente().isSelected()) {
-            conta = new ContaCorrente(agencia, numeroConta, cliente);
+            conta = new ContaCorrente(agencia, numeroConta);
             System.out.println("Criando uma Conta Corrente.");
         } else if (janela.getJrbPoupanca().isSelected()) {
-            conta = new ContaPoupanca(agencia, numeroConta, cliente);
+            conta = new ContaPoupanca(agencia, numeroConta);
             System.out.println("Criando uma conta Poupança");
         }
 
@@ -64,8 +63,10 @@ public class Cadastro {
                 "Tipo: " + (conta instanceof ContaCorrente ? "Conta Corrente" : "Conta Poupança") + "\n" +
                 "Saldo Inicial: R$ " + conta.getSaldo();
 
-                System.out.println(dados);
-                JOptionPane.showMessageDialog(janela, "Dados Atualizados com sucesso!\n (Verifique o console para mais detalhes)", "Sucesso", JOptionPane.INFORMATION_MESSAGE);
+        System.out.println(dados);
+        JOptionPane.showMessageDialog(janela,
+                "Dados Atualizados com sucesso!\n (Verifique o console para mais detalhes)", "Sucesso",
+                JOptionPane.INFORMATION_MESSAGE);
     }
 
     public void fechar() {

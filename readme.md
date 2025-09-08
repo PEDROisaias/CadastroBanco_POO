@@ -22,13 +22,19 @@ O projeto consiste em uma interface gráfica (GUI) que permite o cadastro e a co
 
 ## 📁 Estrutura do Projeto
 
-                ├── src
-                │   ├── controler
-                │   │   └── Cadastro.java   
-                │   ├── Main.java           
-                │   └── telas
-                │       └── Janela.java      
-                └── README.md
+├── src
+│   ├── funcoes
+│   │   └── Cadastro.java   
+│   ├── objetos  
+│   │   ├──  Cliente.java
+│   │   ├── Conta.java
+│   │   ├── ContaCorrente.java
+│   │   ├── ContaPoupanca.java
+│   │   └──Pessoa.java
+│   └── telas
+│       └── Janela.java      
+├── README.md
+└── Main.java
 
 ## ▶️ Como Executar
 Para rodar este projeto, siga os passos abaixo:
