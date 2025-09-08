@@ -20,22 +20,6 @@ O projeto consiste em uma interface gráfica (GUI) que permite o cadastro e a co
 
 - **Padrão de Projeto:** MVC (Model-View-Controller)
 
-## 📁 Estrutura do Projeto
-
-├── src
-│   ├── funcoes
-│   │   └── Cadastro.java   
-│   ├── objetos  
-│   │   ├──  Cliente.java
-│   │   ├── Conta.java
-│   │   ├── ContaCorrente.java
-│   │   ├── ContaPoupanca.java
-│   │   └──Pessoa.java
-│   └── telas
-│       └── Janela.java      
-├── README.md
-└── Main.java
-
 ## ▶️ Como Executar
 Para rodar este projeto, siga os passos abaixo:
 
